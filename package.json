@@ -1,0 +1,10 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "resume export resume.html"
+  },
+  "dependencies": {
+    "resume-cli": "^1.1.2"
+  }
+}
