@@ -2,7 +2,7 @@
   "basics": {
     "name": "Alan Soares",
     "label": "A Pragmatic Programmer with ❤️ for the Web",
-    "picture": "",
+    "picture": "https://avatars3.githubusercontent.com/u/273334?s=400&u=998625ef779b52d7d24753ef53cadf1dc624b1fa&v=4",
     "email": "alanrsoars@gmail.com",
     "phone": "(027) 774-4734",
     "website": "",
@@ -13,7 +13,7 @@
       "Well experienced in all web application lifecycle, from concept to architecture and implementation, including infrastructure setup and deployment automation with the AWS stack.\n",
       "Worked on a large variety of software projects such as institutional portals, ERP web integration, e-ticketing, e-commerce (both bespoke and platform solutions).\n",
       "I'm an open-source enthusiast with over 90 repositories on GitHub using a wide variety of technologies.\n",
-      "I try to pursue my goal of learning a new programming language every year, specially Functional Programming languages."
+      "I try to pursue the goal of learning a new programming language every year, specially Functional Programming languages."
     ],
     "location": {
       "address": "",
@@ -108,7 +108,7 @@
       "highlights": [
         "E-commerce platform development on both backend and frontend",
         "RESTful Web API design",
-        "Massive seller-marketplace catalog integration services with real-time feedback",
+        "High performance seller-marketplace catalog integration services with real-time feedback",
         "Availability & Application Monitoring tools built upon Pingdom's API, with AngularJs and ServiceStack",
         "Custom dashboard manager for Pingdom's application monitoring services with Nancy/OWIN/SignalR/AngularJs",
         "Email configuration automation using Amazon AWS-SES (Simple Email Service)",
