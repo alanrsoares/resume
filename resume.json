@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alan Soares",
-    "label": "A Polyglot Coder + ❤️ Web & FP",
+    "label": "A Pragmatic Programmer with ❤️ for the Web",
     "picture": "",
     "email": "alanrsoars@gmail.com",
     "phone": "(027) 774-4734",
@@ -190,11 +190,14 @@
   "skills": [
     {
       "name": "Web Development",
-      "keywords": ["HTML", "CSS", "Javascript", "ReactJs", "AngularJs", "Redux"]
+      "keywords": ["HTML", "CSS", "Javascript", "ReactJs", "AngularJs"]
+    },
+    {
+      "name": "Libraries"
     },
     {
       "name": "Javascript Build Automation",
-      "keywords": ["WebPack", "rollup", "babel", "bash"]
+      "keywords": ["WebPack", "Rollup", "Babel", "Bash"]
     },
     {
       "name": "Javascript Testing",
