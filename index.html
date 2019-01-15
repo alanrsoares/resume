@@ -1,0 +1,686 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Alan Soares</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Alan Soares
+					</h1>
+					<h2>
+						A Polyglot Coder + ❤️ Web &amp; FP
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">alanrsoars@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(027) 774-4734</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href=""></a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>From a geek kid to a passionate coder.
+</p>
+			<p>As a developer, I&#x27;ve been embracing the web since 2008, but have been in touch with development since I was 16.
+</p>
+			<p>Always aiming to deliver highly available, high quality language-agnostic software, applying current best practices and designing solutions that deliver user value above all.
+</p>
+			<p>Well experienced in all web application lifecycle, from concept to architecture and implementation, including infrastructure setup and deployment automation with the AWS stack.
+</p>
+			<p>Worked on a large variety of software projects such as institutional portals, ERP web integration, e-ticketing, e-commerce (both bespoke and platform solutions).
+</p>
+			<p>I&#x27;m an open-source enthusiast with over 90 repositories on GitHub using a wide variety of technologies.
+</p>
+			<p>I try to pursue my goal of learning a new programming language every year, specially Functional Programming languages.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/alanrsoares">alanrsoares</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/alanrsoares">alanrsoares</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Stack Overflow
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://stackoverflow.com/users/1049963/alan-r-soares">alan-r-soares</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						CodeSandbox
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://codesandbox.io/u/alanrsoares">alanrsoares</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						CodePen
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://codepen.io/alanrsoares/">alanrsoares</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						CodeWars
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.codewars.com/users/alanrsoares">alanrsoares</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Rush</span>
+					<span class="date">
+						2018-09-03 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://rush.co.nz/">https://rush.co.nz/</a>
+				</div>
+				<div class="position">
+					Lead Frontend Developer
+				</div>
+				<div class="summary">
+					<p>A DESIGN / TECH STUDIO FOR THE EXPONENTIAL AGE.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Crafting beutiful software solutions using React (both web and native).</li>
+					<li class="bullet">Mentoring devs.</li>
+					<li class="bullet">Running technical workshops.</li>
+					<li class="bullet">CI/CD for web and native apps.</li>
+					<li class="bullet">Native app release management.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Xero</span>
+					<span class="date">
+						2014-11-21 — 2018-09-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://xero.com">https://xero.com</a>
+				</div>
+				<div class="position">
+					Senior FrontEnd Engineer + Technical Mentor
+				</div>
+				<div class="summary">
+					<p>Xero is a world class provider for cloud-based accounting software.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Acting as Technical Mentor within the Xero Graduate Program</li>
+					<li class="bullet">ReactJs early adopter (since December 2014)</li>
+					<li class="bullet">Implemented Xero&#x27;s first React application, </li>
+					<li class="bullet">Acting in a variety of internal projects and cross-product platform development</li>
+					<li class="bullet">FrontEnd Ops: Build Automation / CI / CD</li>
+					<li class="bullet">Functional programming evangelist and Javascript mentor with a passion for TDD and Clean Code</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Olympic Software</span>
+					<span class="date">
+						2014-06-01 — 2014-11-19
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.olympic.co.nz/">http://www.olympic.co.nz/</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<div class="summary">
+					<p>Olympic Software is a major software provider based in Auckland.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Leading a team of graduates through a Microsoft partnership to build a multi-platform time-management tool</li>
+					<li class="bullet">Designing and implementing the checkout flow for the Woolworths/Countdown e-commerce platform</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>VTEX</span>
+					<span class="date">
+						2012-05-30 — 2014-05-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://en.vtex.com/">https://en.vtex.com/</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<div class="summary">
+					<p>VTEX is Latin America&#x27;s major e-commerce platform cloud provider.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">E-commerce platform development on both backend and frontend</li>
+					<li class="bullet">RESTful Web API design</li>
+					<li class="bullet">Massive seller-marketplace catalog integration services with real-time feedback</li>
+					<li class="bullet">Availability &amp; Application Monitoring tools built upon Pingdom&#x27;s API, with AngularJs and ServiceStack</li>
+					<li class="bullet">Custom dashboard manager for Pingdom&#x27;s application monitoring services with Nancy/OWIN/SignalR/AngularJs</li>
+					<li class="bullet">Email configuration automation using Amazon AWS-SES (Simple Email Service)</li>
+					<li class="bullet">Product comparison module</li>
+					<li class="bullet">Massive catalog export/import routines</li>
+					<li class="bullet">Realtime mobile application development with Firebase + AngularJs</li>
+					<li class="bullet">Cross-platform mobile development with Xamarin + MVVMCross</li>
+					<li class="bullet">Cross-platform hybrid mobile development with Angularjs using Steroids + Ionic Framework</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>APB Prodata</span>
+					<span class="date">
+						2012-03-01 — 2012-05-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.apb.com.br/">http://www.apb.com.br/</a>
+				</div>
+				<div class="position">
+					.NET Developer
+				</div>
+				<div class="summary">
+					<p>APB is one of Brazil&#x27;s major e-ticketing company resposible for public transportation ticketing in the two biggest cities.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Web and Desktop application development using .NET Framework 3.5, 4.0</li>
+					<li class="bullet">Maintenance and customization of already established systems, reports and database routines development</li>
+					<li class="bullet">E-ticketing plublic transportation applications implementation and multi-platform integration</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Rock In Rio</span>
+					<span class="date">
+						2011-09-23 — 2011-10-02
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://rockinrio.com/rio/en">http://rockinrio.com/rio/en</a>
+				</div>
+				<div class="position">
+					Social Media Data Analyst
+				</div>
+				<div class="summary">
+					<p>Rock in Rio is one of the largest music festivals in the world, with 1.5 million people attending the first event.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Data analysis of social media through the use of Scup</li>
+					<li class="bullet">Insights on the audience response</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>École polytechnique fédérale de Lausanne</span>
+					<span class="date">
+						2016-06-01 — 2017-01-01
+					</span>
+				</h4>
+				<div class="area">
+					Functional Programming
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Functional Programming Principles in Scala</li>
+					<li>Functional Program Design in Scala</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Johns Hopkins University</span>
+					<span class="date">
+						2015-06-01 — 2015-09-01
+					</span>
+				</h4>
+				<div class="area">
+					Data Science
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>The Data Scientist Toolbox</li>
+					<li>Functional Program Design in Scala</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Washington</span>
+					<span class="date">
+						2014-10-01 — 2014-12-11
+					</span>
+				</h4>
+				<div class="area">
+					Programming languages
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Functional Programming in SML</li>
+					<li>Functional Programming in Racket</li>
+					<li>Functional Programming in Ruby</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Universidade Estácio de Sá</span>
+					<span class="date">
+						2008-06-01 — 2012-01-01
+					</span>
+				</h4>
+				<div class="area">
+					Information Technology
+				</div>
+				<div class="studyType">
+					Bachelor of Information Systems
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>ReactJs</li>
+					<li>AngularJs</li>
+					<li>Redux</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Javascript Build Automation</h4>
+				</div>
+				<ul class="keywords">
+					<li>WebPack</li>
+					<li>rollup</li>
+					<li>babel</li>
+					<li>bash</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Javascript Testing</h4>
+				</div>
+				<ul class="keywords">
+					<li>Jest</li>
+					<li>Enzyme</li>
+					<li>Mocha</li>
+					<li>Chai</li>
+					<li>Storybook</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Mobile Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>React Native</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programming Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>Javascript</li>
+					<li>ReasonML</li>
+					<li>C#</li>
+					<li>F#</li>
+					<li>Elm</li>
+					<li>Clojure/ClojureScript</li>
+					<li>Scala</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Bilingual proficiency
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Portuguese</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Photography</h4>
+				</div>
+				<ul class="keywords">
+					<li>Urban</li>
+					<li>Long Exposure</li>
+					<li>Astro</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>

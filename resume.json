@@ -17,7 +17,7 @@
     ],
     "location": {
       "address": "",
-      "postalCode": "",
+      "postalCode": "1025",
       "city": "Auckland",
       "countryCode": "NZ",
       "region": ""
@@ -39,6 +39,11 @@
         "url": "https://stackoverflow.com/users/1049963/alan-r-soares"
       },
       {
+        "network": "CodeSandbox",
+        "username": "alanrsoares",
+        "url": "https://codesandbox.io/u/alanrsoares"
+      },
+      {
         "network": "CodePen",
         "username": "alanrsoares",
         "url": "https://codepen.io/alanrsoares/"
@@ -52,10 +57,25 @@
   },
   "work": [
     {
+      "company": "Rush",
+      "position": "Lead Frontend Developer",
+      "website": "https://rush.co.nz",
+      "startDate": "2018-09-03",
+      "summary": "A DESIGN / TECH STUDIO FOR THE EXPONENTIAL AGE.",
+      "highlights": [
+        "Crafting beutiful software solutions using React (both web and native).",
+        "Mentoring devs.",
+        "Running technical workshops.",
+        "CI/CD for web and native apps.",
+        "Native app release management."
+      ]
+    },
+    {
       "company": "Xero",
       "position": "Senior FrontEnd Engineer + Technical Mentor",
-      "website": "http://xero.com",
+      "website": "https://xero.com",
       "startDate": "2014-11-21",
+      "endDate": "2018-09-01",
       "summary": "Xero is a world class provider for cloud-based accounting software.",
       "highlights": [
         "Acting as Technical Mentor within the Xero Graduate Program",
@@ -170,29 +190,25 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript", "ReactJs", "Redux"]
+      "keywords": ["HTML", "CSS", "Javascript", "ReactJs", "AngularJs", "Redux"]
     },
     {
       "name": "Javascript Build Automation",
-      "level": "Master",
       "keywords": ["WebPack", "rollup", "babel", "bash"]
     },
     {
       "name": "Javascript Testing",
-      "level": "Master",
-      "keywords": ["Jest", "Mocha", "Chai"]
+      "keywords": ["Jest", "Enzyme", "Mocha", "Chai", "Storybook"]
     },
     {
       "name": "Mobile Development",
-      "level": "Master",
       "keywords": ["React Native"]
     },
     {
       "name": "Programming Languages",
-      "level": "Master",
       "keywords": [
         "Javascript",
+        "ReasonML",
         "C#",
         "F#",
         "Elm",
@@ -208,7 +224,7 @@
   "interests": [
     {
       "name": "Photography",
-      "keywords": ["Urban", "Long Exposure", "Astronomical"]
+      "keywords": ["Urban", "Long Exposure", "Astro"]
     }
   ]
 }

@@ -2,9 +2,13 @@
   "name": "resume",
   "version": "1.0.0",
   "scripts": {
-    "build": "resume export resume.html"
+    "build": "resume export index.html --force",
+    "serve": "http-server .",
+    "start": "npm run build && npm run serve"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "http-server": "^0.11.1",
     "resume-cli": "^1.1.2"
   }
 }
