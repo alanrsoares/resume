@@ -4,7 +4,8 @@
   "scripts": {
     "build": "resume export index.html --force",
     "serve": "http-server .",
-    "start": "npm run build && npm run serve"
+    "start": "npm run build && npm run serve",
+    "deploy": "npm run build && git add . && git commit -m 'update resume' && git push"
   },
   "homepage": "https://github.com/alanrsoares/resume",
   "dependencies": {
