@@ -194,9 +194,6 @@
       "keywords": ["HTML", "CSS", "Javascript", "ReactJs", "AngularJs"]
     },
     {
-      "name": "Libraries"
-    },
-    {
       "name": "Javascript Build Automation",
       "keywords": ["WebPack", "Rollup", "Babel", "Bash"]
     },
