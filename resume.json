@@ -164,6 +164,7 @@
       "startDate": "2015-06-01",
       "endDate": "2015-09-01",
       "courses": [
+        "R Programming",
         "The Data Scientist Toolbox",
         "Functional Program Design in Scala"
       ]
